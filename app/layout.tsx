@@ -6,7 +6,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Kidz Safari — Tiny Steps to Giant Leaps | Preschool in Faridabad',
   description: 'Kidz Safari is a Waldorf-inspired preschool in Greenfield Colony, Faridabad for children ages 2 to 6. Tiny steps to giant leaps.',
-  icons: { icon: '/logo.png' },
+  icons: { icon: '/hand-print.png' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
