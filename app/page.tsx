@@ -1,6 +1,13 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Floaties from '@/components/Floaties';
+
+export const metadata: Metadata = {
+  title: 'Kidz Safari Preschool Faridabad | Best Play School & Day Care in Greenfield Colony',
+  description: 'Kidz Safari is the best preschool and day care in Greenfield Colony, Faridabad. Waldorf inspired play school for ages 2 to 6 with Pre Nursery, Nursery, L.KG, U.KG, Day Care, Evening Tuition, fresh food, and pickup drop. 15+ years, 1000+ happy kids. Enroll today.',
+  alternates: { canonical: 'https://kidzsafari.in' },
+};
 
 const FAQS = [
   { q: 'What ages do you accept?', a: 'We welcome children between 2 and 6 years old, across our Pre-Nursery, Nursery, L.KG, and U.KG programmes.' },

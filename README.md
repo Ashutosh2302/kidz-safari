@@ -97,4 +97,3 @@ Available variants: `toys`, `books`, `nature`, `animals`, `party`, `services`, `
 ## 💬 Contact Form
 
 The form on the contact page is a client component (`components/ContactForm.tsx`) that opens WhatsApp with a pre-filled message addressed to `+91 97113 33568`. No backend needed.
-# kidz-safari

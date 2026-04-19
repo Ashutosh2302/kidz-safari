@@ -1,5 +1,12 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Floaties from '@/components/Floaties';
+
+export const metadata: Metadata = {
+  title: 'Programmes | Pre Nursery, Nursery, L.KG, U.KG, Day Care & Tuition',
+  description: 'Explore Kidz Safari programmes in Faridabad. Pre Nursery (ages 2 to 3), Nursery (3 to 4), L.KG (4 to 5), U.KG (5 to 6), Day Care (2 to 12, Monday to Saturday), and Evening Tuition Classes (1st to 5th). Fresh food, music, art, garden time included.',
+  alternates: { canonical: 'https://kidzsafari.in/programmes' },
+};
 
 const PROGRAMMES = [
   { age: 'Ages 2 – 3', t: '🐣 Pre-Nursery', d: 'A gentle first step away from home. Songs, stories, sensory play, and lots of warm laps.', hours: '9:30 AM – 12:45 PM', seed: 'prenursery' },

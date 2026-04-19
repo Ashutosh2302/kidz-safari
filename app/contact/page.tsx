@@ -1,5 +1,12 @@
+import type { Metadata } from 'next';
 import Floaties from '@/components/Floaties';
 import ContactForm from '@/components/ContactForm';
+
+export const metadata: Metadata = {
+  title: 'Contact Us | Visit, Call or Enquire About Admissions',
+  description: 'Contact Kidz Safari preschool in Greenfield Colony, Faridabad. Address: B 292, Ground Floor Back, Greenfield Colony, Faridabad 121003. Phone: +91 97113 33568. Email: hello@kidzsafari.in. School hours, day care hours, and office hours listed. Book a tour today.',
+  alternates: { canonical: 'https://kidzsafari.in/contact' },
+};
 
 export default function ContactPage() {
   return (

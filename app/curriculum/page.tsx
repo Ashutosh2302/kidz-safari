@@ -1,6 +1,13 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import Floaties from '@/components/Floaties';
+
+export const metadata: Metadata = {
+  title: 'Curriculum | Waldorf Play Based Learning, Six Pillars & Daily Rhythm',
+  description: 'Discover the Kidz Safari curriculum in Faridabad. Waldorf play based learning with six pillars: storytelling, music, creative arts, nature play, practical life, and social emotional growth. Less worksheets, lots of wonder. See our daily schedule.',
+  alternates: { canonical: 'https://kidzsafari.in/curriculum' },
+};
 
 const PILLARS = [
   { em: '📖', t: 'Storytelling', d: 'Daily story time with puppets, voice, and imagination. No screens.' },

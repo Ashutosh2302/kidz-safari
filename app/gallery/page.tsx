@@ -1,5 +1,12 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Floaties from '@/components/Floaties';
+
+export const metadata: Metadata = {
+  title: 'Gallery | Photos of Indoor Activities, Outdoor Play, Sports Day & Annual Day',
+  description: 'See Kidz Safari preschool Faridabad in action. Browse photos of indoor activities, outdoor play, sports day celebrations, and annual day performances. Real moments from our Greenfield Colony campus.',
+  alternates: { canonical: 'https://kidzsafari.in/gallery' },
+};
 
 type Category = {
   id: string;
